@@ -10,9 +10,9 @@ export default function MainSideMenu() {
             </div>
             <div className={styles.NavButtons}>
                 <MainSideMenuOption title="Home" />
-                <MainSideMenuOption title="Messages" isActive={true}/>
+                <MainSideMenuOption title="Messages" isActive={false}/>
                 <MainSideMenuOption title="Groups" />
-                <MainSideMenuOption title="Lives" />
+                <MainSideMenuOption title="Lives" isActive={true} redDot={true}/>
                 <MainSideMenuOption title="Discovery" />
                 <MainSideMenuOption title="Bookmarks" />
                 <MainSideMenuOption title="Settings" />

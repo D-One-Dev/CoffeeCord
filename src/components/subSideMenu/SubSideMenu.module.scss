@@ -1,8 +1,28 @@
-// .SubSideMenu {
-//     width: 15%;
-//     height: 100%;
-//     margin: 0;
-//     padding: 0;
-//     position: relative;
-//     background-color: black;
-// }
+.SubSideMenu {
+    width: 15%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+
+    .TabLabel {
+        width: 100%;
+        height: 7.5%;
+        display: flex;
+        align-items: center;
+    }
+
+    h2 {
+        font-size: 32px * calc(100vw / 1920px);
+        margin: auto 10%;
+    }
+
+    .NavButtons {
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
