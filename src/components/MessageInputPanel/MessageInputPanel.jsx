@@ -1,4 +1,5 @@
 import MessageFormatButton from "../MessageFormatButton/MessageFormatButton";
+import SendMessageButton from "../SendMessageButton/SendMessageButton";
 import styles from "./MessageInputPanel.module.scss";
 
 export default function MessageInputPanel() {
@@ -38,6 +39,7 @@ export default function MessageInputPanel() {
             altText="Message format file"
           />
         </div>
+        <SendMessageButton />
       </div>
     </div>
   );
